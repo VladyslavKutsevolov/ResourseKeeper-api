@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ResourseKeeper-api.iml" filepath="$PROJECT_DIR$/.idea/ResourseKeeper-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rkeeper.iml" filepath="$PROJECT_DIR$/.idea/rkeeper.iml" />
     </modules>
   </component>
 </project>

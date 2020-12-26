@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0dc9fc52-1be9-4ff4-a021-ac686cb1b180" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ResourseKeeper-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/.config/project-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/api/rkgraph/parameters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/api/rkgraph/schema.graphql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/api/rkgraph/stacks/CustomResources.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/api/rkgraph/transform.conf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/auth/resourcekeeper83f37594/parameters.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/auth/resourcekeeper83f37594/resourcekeeper83f37594-cloudformation-template.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/backend-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/backend/tags.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/cli.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/amplify/team-provider-info.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1m7pFCWu3P1ctut0csSpzGSngk6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.14.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="aws" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="localhost:4000" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:4000/">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.localhost:4000" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0dc9fc52-1be9-4ff4-a021-ac686cb1b180" name="Default Changelist" comment="" />
+      <created>1608854377890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608854377890</updated>
+      <workItem from="1608854379409" duration="7385000" />
+      <workItem from="1608928009725" duration="3517000" />
+      <workItem from="1609012123606" duration="801000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial setup">
+      <created>1608939528798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608939528798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial setup" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
