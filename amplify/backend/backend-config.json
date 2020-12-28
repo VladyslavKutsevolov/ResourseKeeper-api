@@ -16,5 +16,13 @@
         }
       }
     }
+  },
+  "auth": {
+    "rkeeperde99aa70": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
   }
 }
