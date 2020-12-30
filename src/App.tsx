@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { API, graphqlOperation, Auth} from 'aws-amplify';
-import { CognitoHostedUIIdentityProvider } from "@aws-amplify/auth/lib/types";
+import { CognitoHostedUIIdentityProvider } from "@aws-amplify/auth";
+import { withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react';
 
 
 // import  query defenitions
@@ -35,7 +36,9 @@ function App() {
   return (
     <div className="App">
       <div>
-        {/* ts-ignore */}
+    <div>
+      <AmplifySignOut />
+    </div>
         <button onClick={() => Auth.federatedSignIn({provider: CognitoHostedUIIdentityProvider.Google})}>Sign in with Google</button>
         <button onClick={() => Auth.federatedSignIn()}>Sign in</button>
       </div>
@@ -51,4 +54,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);

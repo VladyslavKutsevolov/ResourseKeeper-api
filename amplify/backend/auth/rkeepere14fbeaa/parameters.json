@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "rkeeperde99aa70_identitypool_de99aa70",
+    "identityPoolName": "rkeepere14fbeaa_identitypool_e14fbeaa",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "rkeepede99aa70",
-    "userPoolName": "rkeeperde99aa70_userpool_de99aa70",
+    "resourceNameTruncated": "rkeepee14fbeaa",
+    "userPoolName": "rkeepere14fbeaa_userpool_e14fbeaa",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "rkeepede99aa70_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "rkeepee14fbeaa_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "de99aa70",
-    "resourceName": "rkeeperde99aa70",
+    "sharedId": "e14fbeaa",
+    "resourceName": "rkeepere14fbeaa",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -47,10 +47,7 @@
     },
     "useDefault": "defaultSocial",
     "hostedUI": true,
-    "usernameAttributes": [
-        "email"
-    ],
-    "hostedUIDomainName": "rkeeperde99aa70-de99aa70",
+    "hostedUIDomainName": "rkeepere14fbeaa-e14fbeaa",
     "authProvidersUserPool": [],
     "hostedUIProviderMeta": "[]",
     "oAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
