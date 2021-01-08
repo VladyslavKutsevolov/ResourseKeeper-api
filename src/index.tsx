@@ -6,11 +6,14 @@ import reportWebVitals from './reportWebVitals';
 
 import Amplify from 'aws-amplify'
 import config from './aws-exports'
+import { StateProvider } from './context/appContext';
 Amplify.configure(config)
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StateProvider>
+      <App />
+    </StateProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
