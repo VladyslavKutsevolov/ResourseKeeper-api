@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import { API, graphqlOperation, Auth} from 'aws-amplify';
-import { CognitoHostedUIIdentityProvider } from "@aws-amplify/auth";
+
+import { API, graphqlOperation} from 'aws-amplify';
 import { withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react';
+
 
 
 // import  query defenitions
 import {listResources as ListResources} from './graphql/queries';
+import ResourseForm from './components/ResourseForm';
+import { useStateData } from './context/appContext';
+import Types from './context/types';
 
 
 interface IResources {
@@ -16,7 +20,8 @@ interface IResources {
 }
 
 function App() {
-  const [listResources, setListResources] = useState<IResources[] | []>([]);
+  // const [listResources, setListResources] = useState<IResources[] | []>([]);
+  const {state, dispatch} = useStateData();
 
   useEffect(() => {
     getResources();
@@ -25,24 +30,25 @@ function App() {
   const getResources = async () => {
     try {
       const resourcesData: any = await API.graphql(graphqlOperation(ListResources));
-      setListResources(resourcesData.data.listResources.items);
-
+      // setListResources(resourcesData.data.listResources.items);
+      dispatch({type: Types.GET_ALL_RESOURSES, payload: { resourses: resourcesData.data.listResources.items}})
+      
     } catch (error) {
       console.log(' get resources error', error);
     }
   }
 
-  console.log('listResources',listResources)
+console.log(state);
   return (
     <div className="App">
-      <div>
+
     <div>
       <AmplifySignOut />
     </div>
-        <button onClick={() => Auth.federatedSignIn({provider: CognitoHostedUIIdentityProvider.Google})}>Sign in with Google</button>
-        <button onClick={() => Auth.federatedSignIn()}>Sign in</button>
-      </div>
-      {(listResources as IResources[]).map((resource, i: number) => {
+
+    <ResourseForm />
+
+      {(state.resourses as IResources[]).map((resource, i: number) => {
         return (
         <div key={i}>
             <h2>{resource.name}</h2>
