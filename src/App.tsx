@@ -30,9 +30,8 @@ function App() {
   const getResources = async () => {
     try {
       const resourcesData: any = await API.graphql(graphqlOperation(ListResources));
-      // setListResources(resourcesData.data.listResources.items);
-      dispatch({type: Types.GET_ALL_RESOURSES, payload: { resourses: resourcesData.data.listResources.items}})
-      
+      console.log(resourcesData);
+      dispatch({type: Types.GET_ALL_RESOURSES, payload: { resources: resourcesData.data.listResources.items}})
     } catch (error) {
       console.log(' get resources error', error);
     }
@@ -48,7 +47,7 @@ console.log(state);
 
     <ResourseForm />
 
-      {(state.resourses as IResources[]).map((resource, i: number) => {
+      {(state.resources as IResources[]).map((resource, i: number) => {
         return (
         <div key={i}>
             <h2>{resource.name}</h2>

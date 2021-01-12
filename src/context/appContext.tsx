@@ -9,7 +9,7 @@ type Props = {
 }
 
 const initialState: AppState = {
-  listOfResourses: []
+  resources: []
 }
 
 const StateProvider = ({children}: Props ) => {
